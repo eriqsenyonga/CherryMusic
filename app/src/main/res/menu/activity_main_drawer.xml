@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Home" />
+
+
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Music" />
+
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Books" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="News" />
+
+        <item
+            android:id="@+id/nav_sermons"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Sermons" />
+
+        <item
+            android:id="@+id/nav_podcasts"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Podcasts" />
+
+
+        <!--       <item
+                   android:id="@+id/nav_chats"
+                   android:icon="@drawable/ic_person_add"
+                   app:actionLayout="@layout/menu_item_counter"
+                   android:title="Chats" />
+
+               <item
+                   android:id="@+id/nav_chats"
+                   app:actionLayout="@layout/menu_item_counter"
+                   android:icon="@android:drawable/ic_menu_add"
+                   android:title="Chats"
+                   app:showAsAction="always"/>
+       -->
+
+    </group>
+
+    <group android:id="@+id/therest">
+
+        <item
+            android:id="@+id/nav_contact_us"
+
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_settings"
+
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/nav_help"
+
+            android:title="Help" />
+
+    </group>
+
+</menu>
