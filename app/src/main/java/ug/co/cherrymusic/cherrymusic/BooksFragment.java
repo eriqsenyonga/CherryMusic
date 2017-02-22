@@ -14,7 +14,6 @@ import android.widget.TextView;
  */
 public class BooksFragment extends Fragment {
 
-    TextView tvBooks;
 
 
     public BooksFragment() {
