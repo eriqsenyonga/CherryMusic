@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="genres">
+        <item>All Genres</item>
+        <item>Blues</item>
+        <item>Gospel</item>
+        <item>RnB</item>
+        <item>Soul</item>
+        <item>Hip Hop</item>
+        <item>Rock</item>
+        <item>Jazz</item>
+        <item>Dance Hall</item>
+        <item>Regae</item>
+    </string-array>
+
+
+
+</resources>
